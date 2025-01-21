@@ -1,9 +1,8 @@
 from collections import Counter, deque
-from math import factorial
 from fractions import Fraction
 
 maximum_dice = 4
-valid_dice = [4, 6, 8, 12, 20]
+valid_dice = [6]
 polynomial_lookup = [{i + 1: 1 for i in range(dice)} for dice in valid_dice]
 
 def multiply_polynomials(a, b):
